@@ -24,7 +24,7 @@ test:
 integration:
   stage: integration
   script:
-    - echo "This is an integration step"
+    - echo "This is simple integration step"
     - exit 1
   allow_failure: true # Even if the job fails, continue to the next stages
 
