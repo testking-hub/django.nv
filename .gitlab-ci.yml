@@ -31,5 +31,5 @@ integration:
 prod:
   stage: prod
   script:
-    - echo "This is a deploy step"
+    - echo "This is a deploymm step"
   when: manual # Continuous Delivery
